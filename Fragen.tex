@@ -1,0 +1,90 @@
+\documentclass[a4paper,oneside,10pt,DIV12,headsepline,footexclude,headexclude]{scrartcl}
+\begin{document}
+    \begin{section}{ASP}
+        \begin{itemize}
+            \item Definieren Sie den Begriff eines Amwer Sets eines logischen Progrnrnmes f' .
+Wie gehen Sie vor, um die Answer Sets eines gegebenen Programms zu berechnen: welche "!
+Schritte sind in welcher Reihenfolge durchzuführen?  
+            \item Was versteht man unter Abduktion und einem abduktiven Diagnoseproblem?  
+            \item Was versteht man unter einer konsistenzbasierten Diagnose?
+            Besteht aus Hypothese, einer Theorie, einem Set von Beobachtungen.
+            \item Was ist ein klassisches Modell eines Programms P?
+        \end{itemize}
+    \paragraph {Multiple Choice}
+        \begin{enumerate}
+            \item Regeln in einem Programm zur konsitenzbasierten Diagnose muessen grundiert sein. (Falsch)
+            \item Das leere Programm hat kein Answer Set. (Falsch)
+            \item Es gibt ein normales logisches Programm, welches ein Answer Set besitzt das sowohl
+            ein Atom $a$ als auch dessen Negation $\neg a$ enthaelt. (Falsch)
+            \item Ein Answer Set eines normalen grundierten Programms P kann kein Atom enthalten,
+            dessen Praedikatensymbol nicht im Kopf einer Regel von P vorkommt. ()
+        \end{enumerate}    
+    \rule{\textwidth}{1pt}        
+    \begin{enumerate}
+            \item
+            Wenn $M_1$ ein Answer Set eines Programms $P_1$ ist, und $M_2$ ein
+            Answer Set eines Programms $P_2$, dann ist $M_1 \cup M_2$ ein Answer Set von $P_1 \cup P_2$. (Falsch)
+            \item Wenn M ein minimales Modell eines Programms P ist, dann ist M ein Answer Set von P. (Falsch)
+            \item Abduktive Diagnosen sind ein schwaecheres Konzept als consitency-based diagnosis. (Falsch)
+            \item Jede Teilmenge von $\{a,b,c\}$ auszer der leeren Menge ist ein Answer Set von $P = \{a \vee b \vee c :-\}$ (Falsch)
+        \end{enumerate}    
+    \rule{\textwidth}{1pt}        
+    \begin{enumerate}
+        \item Ein Answer Set eines normalen Programms P kann nicht-grundierte Atome enthalten (Falsch)
+        \item Das Programm $P = \{a \vee b :-, a \vee c :-\}$ hat die Answer Sets $\{a\}, \{b,c\}, \{a,b\}, \{a,c\}$ (Falsch)
+        \item Fuer jedes $n \geq 1$ gibt ein disjunktives logisches Programm, in welchem $\Theta (n)$ Atome vorkommen
+        , welches jedoch mindestens $2^n$ Answer Sets besitzt. (Richtig)
+        \item Regeln in einem Programm zur abduktiven Diagnose duerfen disjunktiv sein (Falsch)
+        \item Jedes klassische Modell eines Programms P ist auch ein Answer Set von P (Falsch).
+   \end{enumerate}
+
+    \rule{\textwidth}{1pt}        
+    
+    \begin{enumerate}
+        \item Wenn $M_1$ ein Answer Set eines PRogrammes $P_1$ ist, und $M_2$ ein Answer Set eines Programms $P_2$, dann ist $M_1 \cup M_2$ ein Answer Set von $P_1 \cup P_2$. (Falsch)
+        \item Wenn M ein minimales Modell eines Programms P ist dann ist M ein Answer Set von P (Falsch)
+        \item Abduktive Diagnosen sind ein schwaecheres Konzept als consitency-based Diagnosen (Falsch)
+        \item Jede Teilmenge von $\{a, b, c\}$ auszer der leeren Menge ist ein Answer Set von $P = \{a \vee b \vee c:-\}$ ()
+    \end{enumerate}
+
+    \rule{\textwidth}{1pt}
+
+    \begin{enumerate}
+        \item Es gibt grundierte, normale Answer-Set Programme, die keine Answer Sets besitzen. ()
+        \item Ein Answer Set eines normalen Programms P kann kein Atom enthalten dass nicht im Kopf einer Regel von P vorkommt. (Wahr)
+        \item Regeln in einem Programm zur konsistenzbasierten Diagnose duerfen nicht disjunktiv sein. (Wahr)
+        \item Jede Teilmenge von $\{a, b, c\}$ auszer der leeren Menge ist ein Answer Set von $P = \{a \vee b \vee c \leftarrow \}$ (Falsch)
+    \end{enumerate}
+
+    \rule{\textwidth}{1pt}
+
+    \begin{enumerate}
+    \item Jedes Hornprogramm hat ein klassisches Modell  (Wahr????)
+    \item Das Programm $P = \{a \vee b :-, a \vee c :-, :- a \vee b\}$ ist ein disjunktives Logisches Programm? (Falsch)
+    \item Falls ein Programm ein klassisches Modell hat, so besitzt es auch ein Answer Set, jedoch sind nicht notwendigerweise alle klassische Modelle Answer Sets. (Falsch)
+    \item Constraints fuegen keine Ausdrucksstaerke hinzu, sie koennen auf normale Regeln reduziert werden. (Wahr)
+    \item Sei $P$ ein Programm mit starker Negation und $P'$ ein Programm welches aus P entsteht in dem wir alle literale der Form $\neg p$ uniform durch ein neues Atom $q_{\neg p}$ ersetzen.
+    Falls $P$ kein Answer Set besitzt, so auch $P'$. ()
+    \end{enumerate}
+
+    \rule{\textwidth}{1pt}
+    \begin{enumerate}
+    \item Ein Answer Set eines normalen Programms P kann kein Atom enthalten dessen Praedikatensymbol nicht im Kopf einer Regel von P vorkommt. (Richtig)
+    \item Regeln in einem Programm zur konsistenzbasierten Diagnose duerfen Disjunktiv sein. ()
+    \item Jede Teilmenge von $\{a,b,c\}$ auszer der Leeren Menge ist ein Answer Set von $ P = \{a \vee b \vee c :-\}$ (Falsch)
+    \item Es existieren Interpretationen $M_1, M_2$ und Programme $P_1, P_2$ sodass $M_1$ ein Answerset von $P_1, M_2$, ein Answerset von $P_2$, und $M_1 \cup M_2$ ein Answer Set von $P_1 \cup P_2$ ist. (Richtig)
+    \item Jedes klassische Modell eines Programms P ist auch ein Answer Set von P. (Falsch)
+    \end{enumerate}
+    \rule{\textwidth}{1pt}
+    \begin{enumerate}
+    \item Wenn $M_1$ ein Answer Set eines Programms $P_1$ ist und $M_2$ ein Answer Set eines Programms $P_2$ dann ist $M_1 \cup M_2$ ein Answer Set von $P_1 \cup P_2$. (Falsch)
+    \item Wenn M ein minimales Modell eines Programms P ist dann ist M ein Answer Set von P. (Falsch)
+    \item Abduktive Diagnosen sind ein schwaecheres Konzept als consitency based Diagnosis. (Falsch)
+    \item Jede Teilmenge von $\{a,b,c\}$ auszer der Leeren Menge ist ein Answer Set von $ P = \{a \vee b \vee c :-\}$ (Falsch)
+    \end{enumerate}
+
+    \end{section}
+
+    \rule{\textwidth}{1pt}
+
+\end{document}
